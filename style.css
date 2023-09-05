@@ -1,87 +1,95 @@
 *{
-    margin: 0;
     padding: 0;
+    margin: 0;
     box-sizing: border-box;
-    background-color:gray;
 }
 
-body,html{
+html, body{
     height: 100%;
 }
 
-.first{
-    margin: 0 auto;
-    width: 1280px;
-    height: 100%;
-    background-color: white;
-}
-
-.text{
+.header{
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    background-color: #dfc9b2;
     
-    padding: 30px;
-    padding-top: 10px;
-    background-color: white;
-
 
 }
 
-.text p{
-    background-color: white;
-    text-align: center;
+
+
+li.menu-sup{
+    
+    display: inline;
+    font-size: 14px;
     font-family: tahoma;
+    letter-spacing: 1px;
 }
 
-.headertop{
+.menu-sup{
     text-align: center;
-    margin: 30px auto;
-    
-    
+    margin-top: 20px;
+    list-style-type: none;
 }
 
-.headertop h1{
-    background-color: white;
-    padding-top: 50px;
-    
+li a{
+    padding: 22px 17.7px;
+    padding-bottom: 22px;
 }
-.headertop h3{
-    background-color: white;
+li a:hover{
+    background-color: rgb(112, 196, 245);
+}
+
+
+
+
+
+
+
+
+.div-mae{
+    background-image: url(imagens/bg.png);
+    width: 100%;
+    background-size: 100% auto;
+    background-repeat: repeat-y;
+    overflow-x: hidden;
+}
+
+.body{
+    padding-top: 60px;
     text-align: center;
 }
 
+.body img{
 
-.imagem{
     text-align: center;
-    display: inline-block;
-    box-sizing: border-box;
-    border-top: 5px solid black;
-    margin-bottom: px;
-    background-color: white;
+    border: 2px solid black;
 }
 
-
-
-
-.conteiner1{
-    width: 620px;
-    background-color: red;
-    height: 700px
-}
-
-.conteiner2{
-    width: 620px;
-    background-color: blue;
-    height: 700px
-}
-
-.introducao{
-    padding: 100px 0;
+.texto-inicial h1{
     text-align: center;
-    background-color: white;
+    font-size: 20px;
+    padding: 30px;
+    font-family: fantasy;
+    letter-spacing: 4px;
 }
 
-.introducao h1{
-    background-color: white;
+.texto-inicial p{
+    width: 400px;
+    text-align: center;
+    font-size: 15px;
+    font-family: verdana;
+    margin: 0 auto;
 }
-.video{
-    background-image: white;
+.texto-inicial{
 }
+
+.video-1 video{
+    text-align: center;
+    margin: 0 auto;
+    height: 500px;
+    width: 480px;
+    margin-top: 20px;
+}
+
